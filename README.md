@@ -1,5 +1,7 @@
 # Ask-EHDS
 
+![Cover Image](https://i.ibb.co/tqscZnK/DALL-E-2024-07-14-15-13-30-A-clean-pixel-art-style-illustration-representing-the-Ask-EHDS-project-in.webp)
+
 **Ask-EHDS** je open-source konverzační platforma navržená pro podporu zdravotnických odborníků v procesu elektronizace zdravotnictví. Projekt využívá umělou inteligenci pro zpracování dotazů od uživatelů a poskytuje odpovědi založené na širokém znalostním základě a pokročilé technologii.
 
 ## Účel a Mise
