@@ -40,7 +40,7 @@ Cílem Ask-EHDS je usnadnit zdravotnickým odborníkům přístup k informacím 
 ## Technické Detaily
 
 - **Jazykový Model:** 
-  - Ask-EHDS využívá LangChain k řízení jazykových modelů jako **GPT-3.5** nebo **GPT-4** pro generování odpovědí a analýzu dotazů. LangChain podporuje různé modely a poskytuje flexibilitu při výběru a konfiguraci modelů pro různé úkoly.
+  - Ask-EHDS využívá LangChain k řízení jazykových modelů, pro generování odpovědí a analýzu dotazů. LangChain podporuje různé modely a poskytuje flexibilitu při výběru a konfiguraci modelů pro různé úkoly.
 
 - **Vectorová Databáze:** 
   - LangChain umožňuje integraci s vektorovou databází, což usnadňuje rychlé a efektivní vyhledávání a porovnávání informací.
