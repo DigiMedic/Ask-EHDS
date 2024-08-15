@@ -2,59 +2,105 @@
 
 ![Cover Image](https://i.ibb.co/tqscZnK/DALL-E-2024-07-14-15-13-30-A-clean-pixel-art-style-illustration-representing-the-Ask-EHDS-project-in.webp)
 
-**Ask-EHDS** je open-source konverzační platforma navržená pro podporu zdravotnických odborníků v procesu elektronizace zdravotnictví. Projekt využívá umělou inteligenci pro zpracování dotazů od uživatelů a poskytuje odpovědi založené na širokém znalostním základě a pokročilé technologii.
+**Ask-EHDS** je open-source dokumentace navržená pro podporu zdravotnických odborníků v procesu elektronizace zdravotnictví. 
 
 ## Účel a Mise
 
-Cílem Ask-EHDS je usnadnit zdravotnickým odborníkům přístup k informacím a nástrojům, které zlepší jejich rozhodování a péči o pacienty. Platforma kombinuje moderní technologie, aby zodpovídala dotazy uživatelů efektivně a přesně.
+Cílem Ask-EHDS je sjednotit a v vhodné podobě veřejně nabídnout informace ohledně EHDS a elektronizaci Zdravotnictví s konkrétnímy specifikacemi pro českou republiku. Tyto informace budou využitelné jak pro zdravotnické pracovníky tak pro vývojáře a další specializované obory zaměřené na zdravotnictví. 
 
-## Architektura
+# Ask-EHDS Dokumentace
 
-### Backend
+Tento projekt obsahuje dokumentaci pro Evropský prostor pro zdravotní data (EHDS) a jeho implementaci v České republice. Je vytvořen pomocí [Docusaurus](https://docusaurus.io/), moderního generátoru statických webových stránek.
 
-- **AI Framework:** 
-  - Ask-EHDS využívá **LangChain**, což je pokročilý AI framework, který umožňuje efektivní integraci a řízení jazykových modelů (LLM) pro zpracování dotazů od uživatelů. LangChain umožňuje snadné skládání řetězců komponent pro optimalizaci výkonu a přesnosti odpovědí.
+## O projektu
 
-- **Vectorová Databáze:** 
-  - Platforma je propojena s vektorovou databází pomocí LangChain, což umožňuje rychlé vyhledávání a porovnávání relevantních informací. LangChain integruje vektorové vyhledávání pro efektivní zpracování velkého množství dat.
+Ask-EHDS je iniciativa zaměřená na poskytování komplexních informací o Evropském prostoru pro zdravotní data (EHDS) a jeho dopadu na české zdravotnictví. Naším cílem je vzdělávat a informovat zdravotnické profesionály, pacienty a veřejnost o výhodách a implementaci EHDS v České republice.
 
-- **Knowledge Base:** 
-  - Znalostní základna, která je pravidelně aktualizována a spravována pomocí LangChain, zajišťuje, že odpovědi jsou vždy aktuální a přesné. LangChain poskytuje nástroje pro správu a automatické aktualizace obsahu znalostní báze.
+## Obsah dokumentace
 
-### Frontend
+Naše dokumentace pokrývá následující klíčové oblasti:
 
-- **Next.js:** 
-  - Uživatelské rozhraní je postaveno na **Next.js**, což je moderní framework pro tvorbu rychlých a responzivních webových aplikací. LangChain podporuje serverové funkce v rámci Next.js, což zajišťuje efektivní komunikaci s uživateli a rychlé poskytování odpovědí.
+- Úvod do EHDS
+- Technické aspekty EHDS
+- Bezpečnost a ochrana dat v EHDS
+- Implementace EHDS v ČR
+- EHDS a české zdravotnictví
 
-## Klíčové Funkce
+## Roadmapa projektu
 
-- **Zpracování Dotazů:** 
-  - LangChain řídí zpracování dotazů uživatelů pomocí jazykových modelů, které poskytují přesné odpovědi v reálném čase. To zahrnuje použití promptů a modelů optimalizovaných pro specifické zdravotnické scénáře.
+### Fáze 1: Základní dokumentace (Současný stav)
+- [x] Vytvoření úvodních dokumentů o EHDS
+- [x] Nastavení základní struktury dokumentace
+- [x] Implementace vícejazyčné podpory (čeština, angličtina)
 
-- **Podpora Zdravotnických Odborníků:** 
-  - Platforma využívá LangChain pro poskytování personalizovaných odpovědí, které pomáhají zdravotnickým odborníkům při orientaci ve zdravotnických datech a podporují jejich rozhodování.
+### Fáze 2: Rozšíření obsahu (Q3-Q4 2023)
+- [ ] Přidání detailních případových studií
+- [ ] Rozšíření sekce o technických aspektech EHDS
+- [ ] Vytvoření interaktivních prvků pro lepší pochopení EHDS
 
-- **Automatické Aktualizace:** 
-  - LangChain umožňuje neustálé vylepšování a aktualizace znalostní báze a algoritmů, čímž zajišťuje, že odpovědi jsou vždy aktuální a relevantní.
+### Fáze 3: Integrace a optimalizace (Q1-Q2 2024)
+- [ ] Implementace vyhledávacího systému v dokumentaci
+- [ ] Optimalizace pro mobilní zařízení
+- [ ] Integrace s externími zdroji dat o EHDS
 
-## Technické Detaily
+### Fáze 4: Komunita a spolupráce (Q3-Q4 2024)
+- [ ] Vytvoření fóra pro diskuzi o EHDS
+- [ ] Implementace systému pro příspěvky od komunity
+- [ ] Organizace webinářů a online událostí o EHDS
 
-- **Jazykový Model:** 
-  - Ask-EHDS využívá LangChain k řízení jazykových modelů, pro generování odpovědí a analýzu dotazů. LangChain podporuje různé modely a poskytuje flexibilitu při výběru a konfiguraci modelů pro různé úkoly.
+## Instalace
 
-- **Vectorová Databáze:** 
-  - LangChain umožňuje integraci s vektorovou databází, což usnadňuje rychlé a efektivní vyhledávání a porovnávání informací.
+```bash
+$ yarn
+```
 
-- **Next.js Frontend:** 
-  - Uživatelské rozhraní je postaveno na Next.js, kde LangChain zajišťuje serverové funkce a podporu pro efektivní komunikaci s uživateli.
+## Lokální vývoj
 
-## Výhody Pro Zdravotnické Odborníky
+```bash
+$ yarn start
+```
 
-- **Efektivita:** 
-  - Rychlý přístup k relevantním informacím šetří čas a zlepšuje efektivitu práce díky integraci LangChain.
+Tento příkaz spustí lokální vývojový server a otevře okno prohlížeče. Většina změn se projeví živě bez nutnosti restartovat server.
 
-- **Přesnost:** 
-  - Vysoce přesné odpovědi jsou zajištěny pokročilým AI modelem a pravidelně aktualizovanou znalostní bází spravovanou pomocí LangChain.
+## Sestavení
 
-- **Podpora Rozhodování:** 
-  - LangChain pomáhá při řešení komplexních zdravotnických otázek a poskytuje podporu v procesu rozhodování prostřednictvím analýzy dat a prediktivních modelů.
+```bash
+$ yarn build
+```
+
+Tento příkaz generuje statický obsah do adresáře `build`, který lze hostovat na jakémkoli hostingu pro statický obsah.
+
+## Nasazení
+
+Použití SSH:
+
+```bash
+$ USE_SSH=true yarn deploy
+```
+
+Bez použití SSH:
+
+```bash
+$ GIT_USER=<Vaše GitHub uživatelské jméno> yarn deploy
+```
+
+Pokud používáte GitHub Pages pro hosting, tento příkaz je pohodlný způsob, jak sestavit web a odeslat ho do větve `gh-pages`.
+
+## Přispívání
+
+Vítáme příspěvky od komunity! Pokud chcete přispět k projektu Ask-EHDS, prosím:
+
+1. Forkněte repozitář
+2. Vytvořte novou větev pro vaše změny
+3. Proveďte změny a commitněte je
+4. Odešlete pull request s popisem vašich změn
+
+Před odesláním pull requestu se ujistěte, že vaše změny jsou v souladu s existujícím stylem kódu a dokumentace.
+
+## Licence
+
+Tento projekt je licencován pod [MIT licencí](LICENSE).
+
+## Kontakt
+
+Pro více informací o projektu Ask-EHDS navštivte naši [webovou stránku](https://ask-ehds.eu) nebo nás kontaktujte na [info@ask-ehds.eu](mailto:info@ask-ehds.eu).
